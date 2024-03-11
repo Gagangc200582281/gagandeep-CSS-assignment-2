@@ -1,0 +1,75 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   /* Flex container settings to center content vertically and horizontally */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; /* Full viewport height */
+   background-image: url(images/h.jpeg); /* Background image URL */
+   background-size: cover; /* Cover the entire viewport */
+}
+
+.movie-container{
+   /* Styling for the main container of the movie content */
+   width: 80%;
+   height: auto;
+   border: 5px solid rgba(255, 255, 255, 0.4); /* White border with transparency */
+   position: relative;
+   overflow: hidden;
+   background: transparent;
+   backdrop-filter: blur(50px); /* Apply a blurred effect to the background */
+   box-shadow: 0 50px 55px -10px #000; /* Box shadow for a subtle lift effect */
+}
+
+img{
+   float: right; /* Float the image to the right */
+}
+
+.title{
+   /* Styling for the movie title */
+   position: absolute;
+   color: #fff; /* White text color */
+   padding: 50px 80px; /* Padding for the title */
+   font-size: 125px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+}
+
+h3{
+   /* Styling for the chapter heading */
+   position: absolute;
+   font-size: 40px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 56px;
+   color:#fff; /* White text color */
+   top: 180px;
+   left: 100px;
+}
+
+.dis{
+   /* Styling for the movie description */
+   position: absolute;
+   color: #fff; /* White text color */
+   top: 220px;
+   padding: 80px 80px; /* Padding for the description */
+   font-size: 18px;
+}
+
+.button-container {
+   /* Styling for the button container */
+   padding: 10px 20px;
+   width: fit-content;
+   margin-bottom: 20px; /* Adjust this value to increase or decrease the space */
+   color: #941919; /* Text color */
+   border-color: #fff; /* Border color */
+   background-color: azure; /* Background color */
+   letter-spacing: 1px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
